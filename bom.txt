@@ -1,0 +1,51 @@
+Descricao						qtd
+
+=> NTC
+		5D-9						1
+		
+=> Resistor
+		2W
+			30K						1
+		1W
+			560K					1
+		1/4W
+			30K						1
+			5R						1
+			40K						1
+			1K						1
+			1.2K					1
+			12K						1
+			5.6K					2
+			
+=> Capacitor
+		Box
+			220nF 275V		2
+		Eletrolitico
+			100uF  400V		1
+			22uF	 50V		1
+			1000uF 25V		4
+		Ceramico
+			2.2nF	1kV			1
+			47nF	50V			2
+		Polyester
+			4.7nF
+			
+=> Indutor
+	5uH	fio: 1.2mm		2
+
+=> Diodo
+	UF4007						1
+	TVR10G						1
+	MBRF1045					1
+	MBRF10100					1
+	Zener 22V					1
+	Zener	10V					1
+	2KBP06M ou 3N257	1
+	
+=> Filtro Linear
+	23mH	Fio: 0.4mm
+	
+=>Ci's
+	FSDM0565R
+	KA431
+	H11A817A

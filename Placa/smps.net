@@ -1,0 +1,340 @@
+# EESchema Netlist Version 1.1 created  31/10/2011 17:20:43
+(
+ ( /4EAAA41A $noname  R7 5.6k_1/4W {Lib=R}
+  (    1 +5VL )
+  (    2 N-000017 )
+ )
+ ( /4E808EDF $noname  K1 CONN_3 {Lib=CONN_3}
+  (    1 N-000004 )
+  (    2 GND )
+  (    3 +5VL )
+ )
+ ( /4E7B4A3A $noname  DZ1 KA431 {Lib=KA431}
+  (    1 N-000017 )
+  (    2 GND )
+  (    3 N-000018 )
+ )
+ ( /4E7B216E $noname  R8 5.6k_1/4W {Lib=R}
+  (    1 N-000017 )
+  (    2 GND )
+ )
+ ( /4E7B2164 $noname  R6 12k_1/4W {Lib=R}
+  (    1 N-000018 )
+  (    2 N-000003 )
+ )
+ ( /4E7B2163 $noname  R4 1.2k_1/4W {Lib=R}
+  (    1 N-000018 )
+  (    2 +12V )
+ )
+ ( /4E7B1935 $noname  C4 47nF_1kV {Lib=C}
+  (    1 VAA )
+  (    2 GNDPWR )
+ )
+ ( /4E7B181B $noname  D7 UF4007 {Lib=DIODE}
+  (    1 N-000014 )
+  (    2 +12V )
+ )
+ ( /4E7B1819 $noname  C5 1000mF_25V {Lib=CAPAPOL}
+  (    1 +12V )
+  (    2 GND )
+ )
+ ( /4E7B1817 $noname  L1 8uH {Lib=IND}
+  (    1 +12V )
+  (    2 N-000004 )
+ )
+ ( /4E7B172B $noname  L2 8uH {Lib=IND}
+  (    1 +5V )
+  (    2 +5VL )
+ )
+ ( /4E7B153D $noname  C6 1000mF_25V {Lib=CAPAPOL}
+  (    1 +5V )
+  (    2 GND )
+ )
+ ( /4E7B1517 $noname  D8 UF4007 {Lib=DIODE}
+  (    1 N-000013 )
+  (    2 +5V )
+ )
+ ( /4E7A38BF $noname  C7 47nF_1kV {Lib=C}
+  (    1 N-000003 )
+  (    2 N-000017 )
+ )
+ ( /4E7A30DA $noname  R3 1k_1/4W {Lib=R}
+  (    1 N-000010 )
+  (    2 +12V )
+ )
+ ( /4E7A2D57 $noname  C2 22uF_50V {Lib=CAPAPOL}
+  (    1 N-000015 )
+  (    2 GNDPWR )
+ )
+ ( /4E7A2D1A $noname  R2 5R_5W {Lib=R}
+  (    1 N-000008 )
+  (    2 N-000015 )
+ )
+ ( /4E7A2CED $noname  D6 UF4007 {Lib=DIODE}
+  (    1 N-000012 )
+  (    2 N-000008 )
+ )
+ ( /4E7A2980 $noname  FS1 KA1M0565R {Lib=KA1M0565R}
+  (    1 N-000011 )
+  (    2 GNDPWR )
+  (    3 N-000015 )
+  (    4 VAA )
+ )
+ ( /4E7A2949 optocoupler-2-DIL04  OK1 PC817 {Lib=PC817}
+  (    1 N-000010 )
+  (    2 N-000018 )
+  (    3 GNDPWR )
+  (    4 VAA )
+ )
+ ( /4E7A2791 $noname  TRAFO_SMPS1 EE30 {Lib=EE30}
+  (    1 VCC )
+  (    2 N-000011 )
+  (    3 N-000012 )
+  (    4 GNDPWR )
+  (    5 GND )
+  (    6 N-000013 )
+  (    7 GND )
+  (    8 N-000014 )
+ )
+ ( /4E7A270E $noname  D5 UF4007 {Lib=DIODE}
+  (    1 N-000011 )
+  (    2 N-000005 )
+ )
+ ( /4E7A2709 $noname  C3 10nF_1kV {Lib=C}
+  (    1 VCC )
+  (    2 N-000005 )
+ )
+ ( /4E7A2701 $noname  R1 33k_5W {Lib=R}
+  (    1 VCC )
+  (    2 N-000005 )
+ )
+ ( /4E79FBE7 $noname  C1 22uF_400V {Lib=CAPAPOL}
+  (    1 VCC )
+  (    2 GNDPWR )
+ )
+ ( /4E79F5E9 $noname  D2 1N4007 {Lib=DIODE}
+  (    1 GNDPWR )
+  (    2 N-000016 )
+ )
+ ( /4E79F5E7 $noname  D4 1N4007 {Lib=DIODE}
+  (    1 GNDPWR )
+  (    2 N-000007 )
+ )
+ ( /4E79F5E5 $noname  D3 1N4007 {Lib=DIODE}
+  (    1 N-000007 )
+  (    2 VCC )
+ )
+ ( /4E79F5AA $noname  P1 CONN_2 {Lib=CONN_2}
+  (    1 N-000016 )
+  (    2 N-000007 )
+ )
+ ( /4E79F587 $noname  D1 1N4007 {Lib=DIODE}
+  (    1 N-000016 )
+  (    2 VCC )
+ )
+)
+*
+{ Allowed footprints by component:
+$component R7
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R8
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R6
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R4
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component C4
+ SM*
+ C?
+ C1-1
+$endlist
+$component D7
+ D?
+ S*
+$endlist
+$component C5
+ CP*
+ SM*
+$endlist
+$component C6
+ CP*
+ SM*
+$endlist
+$component D8
+ D?
+ S*
+$endlist
+$component C7
+ SM*
+ C?
+ C1-1
+$endlist
+$component R3
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component C2
+ CP*
+ SM*
+$endlist
+$component R2
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component D6
+ D?
+ S*
+$endlist
+$component D5
+ D?
+ S*
+$endlist
+$component C3
+ SM*
+ C?
+ C1-1
+$endlist
+$component R1
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component C1
+ CP*
+ SM*
+$endlist
+$component D2
+ D?
+ S*
+$endlist
+$component D4
+ D?
+ S*
+$endlist
+$component D3
+ D?
+ S*
+$endlist
+$component D1
+ D?
+ S*
+$endlist
+$endfootprintlist
+}
+{ Pin List by Nets
+Net 1 "GND" "GND"
+ TRAFO_SMPS1 5
+ DZ1 2
+ R8 2
+ C5 2
+ K1 2
+ C6 2
+ TRAFO_SMPS1 7
+Net 2 "GNDPWR" "GNDPWR"
+ D2 1
+ D4 1
+ OK1 3
+ TRAFO_SMPS1 4
+ C1 2
+ FS1 2
+ C2 2
+ C4 2
+Net 3 "" ""
+ R6 2
+ C7 1
+Net 4 "" ""
+ K1 1
+ L1 2
+Net 5 "" ""
+ C3 2
+ D5 2
+ R1 2
+Net 6 "VCC" "VCC"
+ TRAFO_SMPS1 1
+ C3 1
+ R1 1
+ D1 2
+ D3 2
+ C1 1
+Net 7 "" ""
+ D4 2
+ D3 1
+ P1 2
+Net 8 "" ""
+ R2 1
+ D6 2
+Net 9 "VAA" "VAA"
+ C4 1
+ OK1 4
+ FS1 4
+Net 10 "" ""
+ R3 1
+ OK1 1
+Net 11 "" ""
+ D5 1
+ FS1 1
+ TRAFO_SMPS1 2
+Net 12 "" ""
+ D6 1
+ TRAFO_SMPS1 3
+Net 13 "" ""
+ D8 1
+ TRAFO_SMPS1 6
+Net 14 "" ""
+ D7 1
+ TRAFO_SMPS1 8
+Net 15 "" ""
+ C2 1
+ FS1 3
+ R2 2
+Net 16 "" ""
+ D2 2
+ P1 1
+ D1 1
+Net 17 "" ""
+ R7 2
+ C7 2
+ DZ1 1
+ R8 1
+Net 18 "" ""
+ DZ1 3
+ R6 1
+ R4 1
+ OK1 2
+Net 19 "+12V" "+12V"
+ R3 2
+ L1 1
+ C5 1
+ R4 2
+ D7 2
+Net 20 "+5VL" "+5VL"
+ L2 2
+ K1 3
+ R7 1
+Net 21 "+5V" "+5V"
+ L2 1
+ C6 1
+ D8 2
+}
+#End
